@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252343041795",
+    "project_id": "milo010",
+    "storage_bucket": "milo010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252343041795:android:3e6521950bef915c63f336",
+        "android_client_info": {
+          "package_name": "com.example.milo010"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWoEo0SOOtXHN_dlOiPd5AD6G_zsqN4jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

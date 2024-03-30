@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_key"/>
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security notifications,change number"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintTop_toBottomOf="@id/text_name"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/profile_image2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_lock"/>
+
+        <TextView
+            android:id="@+id/text_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy "
+            app:layout_constraintStart_toEndOf="@id/profile_image2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_phone_number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block contacts"
+            app:layout_constraintStart_toEndOf="@id/profile_image2"
+            app:layout_constraintTop_toBottomOf="@id/text_name2"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/profile_image3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_chat"/>
+
+        <TextView
+            android:id="@+id/text_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chats"
+            app:layout_constraintStart_toEndOf="@id/profile_image3"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_phone_number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theme,Wallpaper,Chat history"
+            app:layout_constraintStart_toEndOf="@id/profile_image3"
+            app:layout_constraintTop_toBottomOf="@id/text_name3"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/profile_image4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_language"/>
+
+        <TextView
+            android:id="@+id/text_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Language"
+            app:layout_constraintStart_toEndOf="@id/profile_image4"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_phone_number4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English(device language)"
+            app:layout_constraintStart_toEndOf="@id/profile_image4"
+            app:layout_constraintTop_toBottomOf="@id/text_name4"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/profile_image5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_help"/>
+
+        <TextView
+            android:id="@+id/text_name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            app:layout_constraintStart_toEndOf="@id/profile_image5"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_phone_number5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help centre,contact us, Privacy policy"
+            app:layout_constraintStart_toEndOf="@id/profile_image5"
+            app:layout_constraintTop_toBottomOf="@id/text_name5"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/profile_image6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_invite"/>
+
+        <TextView
+            android:id="@+id/text_name6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invite a friend"
+            app:layout_constraintStart_toEndOf="@id/profile_image6"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_phone_number6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share to your friends"
+            app:layout_constraintStart_toEndOf="@id/profile_image6"
+            app:layout_constraintTop_toBottomOf="@id/text_name6"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
